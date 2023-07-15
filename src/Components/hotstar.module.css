@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #192133;
+    border-color: yellow;
+}
+#nav>article{
+    width: 98%;
+    display: flex;
+}
+#nav>article>.Menu{
+    width: 40%;
+    background-color: #192133;
+    
+}
+#nav>article>.Menu>ol{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>article>.Menu>ol>li{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#nav>article>.Menu>ol>#kid{
+    color: orange;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 900;
+}
+#nav>article>.Menu>ol>img{
+    height: 35px;
+    width: 20%;
+    margin-top: 0.05cm;
+}
+#nav>article>.Menu>ol>i{
+    height: 40%;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+#nav>article>.Space{
+    width: 30%;
+    background-color: #192133;
+
+}
+#nav>article>.Search{
+    width: 30%;
+    background-color: #192133;
+}
+#nav>article>.Search>ol{
+    margin-top: 25px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.Search>ol>input{
+    height: 30%;
+    width: 50%;
+    padding: 4px;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+#nav>article>.Search>ol>i{
+    color: white;
+    padding: 4px;
+    border-bottom: 1px solid white;
+}
+#nav>article>.Search>ol>#subscribe{
+    margin-left:15px;
+    padding: 4px;
+    height: 0.7cm;
+    font-size: 10px;
+    background-color: #1f80e0;
+    border: 2px solid #1f80e0;
+    border-radius: 4px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+#nav>article>.Search>ol>#login{
+    margin-left: 15px;
+    height: 0.7cm;
+    font-size: 18px;
+    background-color: #192133;
+    border: 2px solid #192133;
+    color: white;
+}

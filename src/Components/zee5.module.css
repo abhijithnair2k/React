@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #192133;
+    border-color: yellow;
+}
+#nav>article{
+    width: 100%;
+    display: flex;
+}
+#nav>article>.Menu{
+    width: 40%;
+    background-color: black;
+    
+}
+#nav>article>.Menu>ol{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>article>.Menu>ol>li{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#nav>article>.Menu>ol>img{
+    height: 65%;
+    width: 8%;
+    margin-top: 0.05cm;
+}
+#nav>article>.Menu>ol>i{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+}
+#nav>article>.Space{
+    width: 15%;
+    background-color:black;
+
+}
+#nav>article>.Search{
+    width: 45%;
+    background-color: black;
+}
+#nav>article>.Search>ol{
+    margin-top: 18px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav>article>.Search>ol>div{
+    height: 0.9cm;
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.Search>ol>div>i{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    
+}
+#nav>article>.Search>ol>div>input{
+    width: 80%;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background: transparent;
+}
+#nav>article>.Search>ol>#aa{
+   padding: 5px;
+   font-size: 25px;
+   border: 1px solid black;
+   background: transparent;
+   color: white;
+   border-radius: 20px;
+}
+#nav>article>.Search>ol>#aa>sup{
+    font-size: small;
+}
+#nav>article>.Search>ol>#login{
+    margin-left: 15px;
+    padding: 10px;
+    height: 0.9cm;
+    font-size: 13px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+
+}
+#nav>article>.Search>ol>#plan{
+    margin-left: 15px;
+    padding: 10px;
+    height: 0.9cm;
+    font-size: 12px;
+    border: 1px solid #8230c6;
+    background: #8230c6;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+#nav>article>.Search>ol>i{
+    width: 10px;
+    color: white;
+    margin-right: 30px;
+}

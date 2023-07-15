@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#nav>article{
+    height: 80px;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#nav>article>.logo{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.logo>svg{
+    width: 23%;
+    fill: white;
+}
+#nav>article>.menu{
+    height: 80px;
+    width: 50%;
+}
+#nav>article>.menu>ol{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    
+}
+#nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#home{
+    height: 90vh;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
